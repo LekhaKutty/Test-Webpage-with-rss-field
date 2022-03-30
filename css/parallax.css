@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 March 2022
+    Author     : Lekha
+*/
+
+.para ,html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("../img/marketing-automation.png");
+    min-height: 1000px;
+  }
+  
+  .bgimg-2 {
+    background-image: url("../img/10_tips_for_creating_content_calendar.jpg");
+    min-height: 1000px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("../img/pressrelease.png");
+    min-height: 800px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    opacity: 0.65;
+    text-align: center;
+   
+  }
+  
+  .caption p.border {
+    background-color: #111;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .caption p.border1 {
+    background-color: #111;
+    position: relative;
+    opacity: 0.65;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  .jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+  @media (max-width: 480px) { 
+    .subscribe{
+        padding-top:100px;
+    }
+}
+@media (min-width: 576px) {
+    .subscribe{
+        padding-top:300px;
+    }
+}
+@media screen and (max-width:767px) {
+    .subscribe{
+        padding-top:500px;
+    }
+}
+@media (min-width: 992px) {
+   
+}

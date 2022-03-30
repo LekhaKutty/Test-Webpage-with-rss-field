@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : March 30, 2022
+    Author     : Lekha Ajith Kutty
+*/
+main {
+    background-color: white;    
+}
+.homeimage {
+    background-image: url(../img/digitalmarketing.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center -100px;
+   
+    height: 150px;
+   
+    color: white;
+}
+.banner{
+	height: 150px;
+	background-image: url('../images/shutterstock_116403520.jpg');
+	background-size: cover;
+	background-position: center -100px;
+}
+.homeimage button {
+    background-color:#179013;
+}
+.linkto:hover{   
+    opacity: 0.7;
+}
+.linkto a{
+    text-align: center;
+    color: white;
+    font-size:large;
+    font-weight: bold;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.counter-count
+{
+    font-size: 32px;
+    position: relative;
+    color: #179013;
+    text-align: center;
+    display: inline-block;
+}
+.latestnews{
+    background-color: #eff3f8;
+    color: black;
+}
+.my-flex-item {
+    height: 48px;
+}
+.my-flex-item-2 {
+    height: 96px;
+    align-items: center;
+}
+
+.bottomArea{
+	background-color: #424243;
+	height: 250px;
+	color: #fff;
+	font-size: .8rem;
+}
+
+.bottomArea p{
+	font-size: .7rem;
+}
+
+.bottomArea h5{
+	font-weight: 800;
+	font-size: 16px;
+}
+.nav-bottom {
+    color: white;
+    text-decoration: none;
+   
+}
+.nav-tog .navbar-toggler {
+    border-color: white;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-color: #179013;
+  } 
+  .foot-flex{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.card-flex{
+    align-items: center;
+    
+}
+.btn-sub{
+    background-color: #179013;
+}
+@media screen and (max-width:767px) {
+	.foot-flex{
+        align-items: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .card-flex{
+        align-items: center;
+        
+    }
+    
+}
+@media (max-width: 480px) { 
+    .card-flex{
+        align-items: center;
+        
+    }
+    .foot-flex{
+        align-items: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+@media (min-width: 576px) {
+    .foot-flex{
+        align-items: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .card-flex{
+        align-items: center;
+        
+    }
+}
+@media (min-width: 992px) {
+    .foot-flex{
+        align-items: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .card-flex{
+        align-items: center;
+        
+    }
+
+    
+}
+@media (min-width: 1200px) {
+   
+    
+}
+
