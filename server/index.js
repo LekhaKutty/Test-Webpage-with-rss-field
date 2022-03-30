@@ -8,11 +8,9 @@ let parser = new Parser();
 
 async function fetchRssFeed(feedUrl) {
     let feed = await parser.parseURL(feedUrl);
-    console.log(feed)
+    
     return feed.items.map(item => {
-        console.log(item.title)
-        console.log(item.link)
-        console.log(item.pubDate)
+        
         return {
             title: item.title,
             link: item.link,
